@@ -71,7 +71,7 @@ sed -i -e 's/packages\/centos/packages\/mainline\/centos/g' /etc/yum.repos.d/ngi
 
 # Install all software needed for machine
 echo "Installing base software."
-PHP_VERSION="php55u"
+PHP_VERSION="php56w"
 
 # Smaller footprint. 66M downloaded.
 yum -y groupinstall "Development Tools"
