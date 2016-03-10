@@ -80,7 +80,7 @@ yum -y groupinstall "Development Tools"
 yum -y install \
 vim vim-common vim-enhanced vim-minimal htop mytop nmap at wget yum-utils \
 openssl openssl-devel curl libcurl libcurl-devel lsof tmux bash-completion \
-gpg lynx memcached memcached-devel nginx npm pv parted ca-certificates \
+gpg lynx memcached memcached-devel nginx npm pv python-devel parted ca-certificates \
 setroubleshoot atop autofs bind-utils tuned cachefilesd symlinks varnish \
 $PHP_VERSION \
 $PHP_VERSION-devel $PHP_VERSION-common $PHP_VERSION-gd $PHP_VERSION-imap \
